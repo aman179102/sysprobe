@@ -27,6 +27,12 @@ npx sysprobe-cli http https://example.com -c 10 -n 100
 npm install -g sysprobe-cli
 ```
 
+### Homebrew (macOS & Linux)
+```bash
+brew tap aman179102/tap
+brew install sysprobe
+```
+
 ### Universal One-Line Installer
 ```bash
 curl -fsSL https://aman179102.netlify.app/install.sh | bash

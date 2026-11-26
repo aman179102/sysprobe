@@ -1,0 +1,40 @@
+{
+  "name": "sysprobe-cli",
+  "version": "1.0.0",
+  "description": "High-Performance Linux Latency & Gateway Benchmarking CLI with Tokyo Night Diagnostics",
+  "main": "bin/sysprobe.js",
+  "bin": {
+    "sysprobe": "./bin/sysprobe.js"
+  },
+  "scripts": {
+    "start": "node bin/sysprobe.js",
+    "test": "node bin/sysprobe.js kernel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman179102/sysprobe.git"
+  },
+  "keywords": [
+    "latency",
+    "benchmark",
+    "tail-latency",
+    "linux",
+    "kernel",
+    "io-uring",
+    "epoll",
+    "networking",
+    "sre",
+    "devops",
+    "cli",
+    "performance"
+  ],
+  "author": "Aman Kumar <amankk179102@gmail.com> (https://aman179102.netlify.app/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aman179102/sysprobe/issues"
+  },
+  "homepage": "https://github.com/aman179102/sysprobe#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
